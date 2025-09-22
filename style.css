@@ -14,6 +14,8 @@ body {
 header {
     height: 100px;
     background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 h1 {
@@ -25,6 +27,7 @@ h1 {
 
 #logo {
     display: inline-block;
+    vertical-align: middle;
 
 }
 
@@ -57,21 +60,25 @@ h1 {
     background-color: rgb(69, 173, 237);
     color: white;
     border: none;
+    line-height: 10px;
 
 }
 
 #section {
     background-color: white;
     color: lightgray;
-    border: solid 2px lightgrey
+    border: solid 2px lightgrey;
+    line-height: 10px;
+    
 }
 
 .list {
     background-color: white;
-    height: 700px;
+    height: 680px;
     margin-top: 2px;
     padding-left: 50px;
     padding-top: 20px;
+    border-radius: 5px;
 
 }
 
@@ -129,7 +136,7 @@ p {
 
 }
 
-#Editional {
+#Editorial {
     background-color: rgb(73, 170, 235);
 }
 
@@ -148,5 +155,17 @@ p {
 #mobile{
 
     background-color: rgb(242, 155, 56);
+
+}
+
+#website{
+
+    background-color: rgb(217, 102, 157);
+
+}
+
+#sales{
+
+    background-color: rgb(174, 199, 36);
 
 }
