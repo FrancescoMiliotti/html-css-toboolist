@@ -26,3 +26,18 @@ h1{
     display: inline-block;
 
 }
+
+.container{
+    width: 780px;
+}
+
+.main-header{
+    height: 50px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#task{
+    background-color: rgb(69, 173, 237);
+    borde
+}
