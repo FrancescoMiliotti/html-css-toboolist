@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0 auto;
     margin: 0 auto;
@@ -7,37 +7,89 @@
 
 
 
-body{
+body {
     background-color: rgb(245, 247, 250);
 }
 
-header{
+header {
     height: 100px;
     background-color: white;
 }
 
-h1{
+h1 {
     display: inline-block;
     font-size: 50px;
     vertical-align: middle;
+
 }
 
-#logo{
+#logo {
     display: inline-block;
 
 }
 
-.container{
+.container {
     width: 780px;
+    padding-left: 50px;
 }
 
-.main-header{
+.main-header {
     height: 50px;
     background-color: white;
     margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding-left: 50px;
+
 }
 
-#task{
+
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    height: 30px;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+#task {
     background-color: rgb(69, 173, 237);
-    borde
+    color: white;
+    border: none;
+
+}
+
+#section {
+    background-color: white;
+    color: lightgray;
+    border: solid 2px lightgrey
+}
+
+.list {
+    background-color: white;
+    height: 700px;
+    margin-top: 2px;
+    padding: 50px;
+
+}
+
+h2 {
+    font-weight: bold;
+
+}
+
+p {
+    display: inline;
+    margin-left: 10px;
+}
+
+#checkmark {
+    height: 25px;
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    border-radius: 50%;
+    border: solid 2px green;
+    color: green;
 }
